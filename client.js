@@ -13,19 +13,19 @@ client.on('message', function (msg, info) {
 });
 
 //sending msg
-client.send(data, 2222, 'localhost', function (error) {
-    if (error) {
-        client.close();
-    } else {
-        console.log('Data sent !!!');
-    }
-});
+// client.send(data, 2222, '68.183.191.192', function (error) {
+//     if (error) {
+//         client.close();
+//     } else {
+//         console.log('Data sent !!!');
+//     }
+// });
 
 var data1 = Buffer.from('hello');
 var data2 = Buffer.from('world');
 
 //sending multiple msg
-client.send([data1, data2], 2222, 'localhost', function (error) {
+client.send([data1, data2], 2222, '68.183.191.192', function (error) {
     if (error) {
         client.close();
     } else {
