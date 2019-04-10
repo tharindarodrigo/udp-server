@@ -1,3 +1,4 @@
+var udp = require('dgram');
 var buffer = require('buffer');
 
 // creating a client socket
