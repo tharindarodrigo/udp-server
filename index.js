@@ -47,7 +47,7 @@ server.on('close', function () {
 
 server.bind(2222);
 
-setTimeout(function () {
-    server.close();
-}, 8000);
+// setTimeout(function () {
+//     server.close();
+// }, 8000);
 
